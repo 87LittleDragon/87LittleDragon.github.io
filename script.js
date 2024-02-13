@@ -16,6 +16,7 @@ function updateDisplay(item){
   text.innerHTML = item.text
 }
 
+
 buttons.forEach(button => {
   button.addEventListener('click', ()=>{
       if(button.textContent == "Yesss!"){
