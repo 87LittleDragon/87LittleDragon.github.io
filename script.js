@@ -30,7 +30,7 @@ buttons.forEach(button => {
           }else{
             alert("咁好la😭")
             alert("love you")
-            close()
+            window.open('','_self').close()
           }
       }
   })
